@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.animaltest.MainActivity">
+
+    <Button
+        android:text="AnimalResource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toAnimalResource"
+        android:id="@+id/button6" />
+
+    <Button
+        android:text="ValueAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:onClick="toValueAnim"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:text="ObjectAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:onClick="toObjectAnim"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:text="CustomAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpToCustomAnim"
+        android:id="@+id/button26" />
+
+    <Button
+        android:text="Property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="jumpToPropertyValue"
+        android:id="@+id/button27" />
+
+    <Button
+        android:text="AnimSet"
+        android:onClick="jumpToAnimSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button30" />
+</LinearLayout>
